@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="lv">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+	<title>Sakums</title>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+
+        var options = {
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+
+<body>
+<div>
+	<h1 align="center" class="par_mums">Par mums</h1>
+	<h4 align="center">Mēs esam auto eksperti. Mēs radām jūms auto fotogrāfijas.</h4>
+	<div class="vid" align="center">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/I3iHZehiL8g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+
+
+<h1 align="center" class="liderboard">Vairāk apskatamie auto marki uz ielas</h1>
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Marka</th>
+      <th scope="col">Cik procentu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>BMW</td>
+      <td>30%</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Mercedes</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Audi</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Toyota</td>
+      <td>20%</td>
+    </tr>
+  </tbody>
+</table>
+<div class="grafiks" align="center">
+	<div id="donutchart" style="width: 1000px; height: 600px;" align="center"></div>
+</div>
+<div class="raksturojums">
+		<h4 aligin="left">Darba telefons:</h4>
+		<h4>Tel +37122722202</h4>
+		<h4>e-pasts:autoeksperti@gmail.com</h4>
+	</div>
+<header class="header">
+	<div class="container">
+		<div class="header__in">
+			<div class="header__logo">
+				<a class="header__link" href="index.html">Sakums</a>
+			</div>
+
+			<nav class="nav">
+				<a class="nav__link" href="Bmw.html">BMW</a>
+				<a class="nav__link" href="Mercedes.html">Mercedes</a>
+				<a class="nav__link" href="Audi.html">Audi</a>
+				<a class="nav__link" href="Toyota.html">Toyota</a>
+				<a class="nav__link" href="Galery.html">Mūsu foto atteli</a>
+        <a class="nav__link" href="Registr.html">Log in/Sing up</a>
+
+			</nav>
+		</div>
+
+
+	</div>
+
+
+</header>
+<div class="intro">	
+	<div class="container">
+			
+	</div>
+
+</div>
+
+
+</body>
+</html>
